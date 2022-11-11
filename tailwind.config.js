@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "#a02279",
+        bordercolor: "#a3a3a3",
+        input: "rgba(247, 247, 247, 0.1)",
+        placeholdertext: "#b8b8b8",
       }
     },
   },
