@@ -57,7 +57,7 @@ export default function Navbar() {
                     <img
                       className="h-8"
                       src="images/logo-1.svg"
-                      alt="brand"
+                      alt="brand-logo"
                     />
                   </a>
                 </div>
