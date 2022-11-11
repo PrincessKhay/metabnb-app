@@ -5,17 +5,17 @@ function Divider () {
         <div className=" bg-primary ">
             <div className="mx-28 flex justify-between">
 
-              <div className="flex">
-                <img src="images/mb-token.svg" alt=""/>
-                <p>MBToken</p>
+              <div className="flex items-center">
+                <img src="images/mb-token.svg" alt="" />
+                <p className="text-white">MBToken</p>
               </div>
-              <div className="flex">
+              <div className="flex items-center">
                 <img src="images/white-metamask.svg" alt=""/>
-                <p>METAMASK</p>
+                <p className="text-white">METAMASK</p>
               </div>
-              <div className="flex">
+              <div className="flex items-center">
                 <img src="images/opensea.svg" alt=""/>
-                <p>OpenSea</p>
+                <p className="text-white">OpenSea</p>
               </div>
             </div>
         </div>
