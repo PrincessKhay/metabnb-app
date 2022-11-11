@@ -1,13 +1,15 @@
+import React from "react";
 import './App.css';
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Divider from "./components/Divider";
 
 function App() {
   return (
     <div>
     <Navbar />
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <Hero />
+    <Divider/>
     </div>
   );
 }
