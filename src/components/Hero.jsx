@@ -17,9 +17,10 @@ function Hero () {
                     </form>
                 </div>
             </div>
-            <div id="pictures_div" className="flex gap-2 relative">
+            <div id="pictures_div" className="">
+              <img src="images/4-images.svg" alt=""/>
                 {/* <div className="absolute left-0 top-24 "> */}
-                <div>
+                {/* <div>
                     <div className="">
                         <img src="images/image-1.svg" alt=""/>
                     </div>
@@ -34,7 +35,7 @@ function Hero () {
                     <div>
                         <img src="images/image-4.svg" alt=""/>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
