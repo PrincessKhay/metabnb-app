@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Divider from "./components/Divider";
 import Collection from "./components/Collection";
+import Moreinfo from "./components/Moreinfo";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Hero />
     <Divider/>
     <Collection />
+    <Moreinfo/>
     </div>
   );
 }
