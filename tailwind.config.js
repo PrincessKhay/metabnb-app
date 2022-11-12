@@ -11,6 +11,9 @@ module.exports = {
         input: "rgba(247, 247, 247, 0.1)",
         placeholdertext: "#b8b8b8",
         token: "#f7f7f7",
+        collection: "#d7d7d7",
+        collection_bg: "linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%)",
+        tinytext: "#434343",
       }
     },
   },

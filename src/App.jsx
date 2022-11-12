@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Divider from "./components/Divider";
+import Collection from "./components/Collection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Navbar />
     <Hero />
     <Divider/>
+    <Collection />
     </div>
   );
 }
