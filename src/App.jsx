@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Divider from "./components/Divider";
 import Collection from "./components/Collection";
 import Moreinfo from "./components/Moreinfo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Divider/>
     <Collection />
     <Moreinfo/>
+    <Footer/>
     </div>
   );
 }
