@@ -2,8 +2,8 @@ import React from "react";
 
 function Categories() {
   return (
-    <div className="flex m-20">
-      <ul className="flex justify-between">
+    <div className="flex mx-20 mt-20 justify-between">
+      <ul className="flex space-x-10">
         <li>Restaurant</li>
         <li>Cottage</li>
         <li>Castle</li>
