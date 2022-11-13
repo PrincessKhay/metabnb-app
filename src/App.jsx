@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Places from "./components/Places";
+import Home from "./pages/Home";
+import Places from "./pages/Places";
 // import Wallet from "./components/Wallet";
 
 function App() {
