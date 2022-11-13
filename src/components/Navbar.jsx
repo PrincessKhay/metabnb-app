@@ -16,8 +16,8 @@ export default function Navbar() {
   let navigate = useNavigate();
 
   return (
-    <div className="px-6 pt-6 lg:px-8">
-      <div>
+    <div className="px-6 mx-12 pt-12 lg:px-8">
+      <div className="">
         <nav
           className="flex h-9 items-center justify-between"
           aria-label="Global"
@@ -38,7 +38,7 @@ export default function Navbar() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+          <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12 whitespace-nowrap">
             {navigation.map((item) => (
               <a
                 key={item.name}
