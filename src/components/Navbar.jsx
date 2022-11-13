@@ -46,7 +46,7 @@ export default function Navbar() {
                 onClick={() => {
                   navigate(item.href);
                 }}
-                className="font-semibold text-gray-900 hover:text-gray-900"
+                className="font-medium text-base text-tinytext hover:text-gray-900"
               >
                 {item.name}
               </a>
@@ -55,7 +55,7 @@ export default function Navbar() {
           <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
             <a
               href="/"
-              className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+              className="inline-block bg-primary rounded-lg px-6 py-2.5 text-sm font-normal leading-6 text-white"
             >
               Connect wallet
             </a>
@@ -95,7 +95,7 @@ export default function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                      className="-mx-3 block font-medium text-tinytext rounded-lg py-2 px-3 text-base leading-7 hover:bg-gray-400/10"
                     >
                       {item.name}
                     </a>
@@ -104,7 +104,7 @@ export default function Navbar() {
                 <div className="py-6">
                   <a
                     href="/"
-                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                    className="-mx-3 bg-primary px-4 py-2.5 font-normal text-white block rounded-lg text-base leading-6"
                   >
                     Connect wallet
                   </a>

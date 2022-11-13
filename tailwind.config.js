@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -12,11 +10,13 @@ module.exports = {
         placeholdertext: "#b8b8b8",
         token: "#f7f7f7",
         collection: "#d7d7d7",
-        collection_bg: "linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%)",
+        collection_bg:
+          "linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%)",
         tinytext: "#434343",
         footercolor: "#1d1d1e",
-      }
+        secondary: "linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%)",
+      },
     },
   },
   plugins: [],
-}
+};
