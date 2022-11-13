@@ -14,6 +14,7 @@ module.exports = {
         collection: "#d7d7d7",
         collection_bg: "linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%)",
         tinytext: "#434343",
+        footercolor: "#1d1d1e",
       }
     },
   },
