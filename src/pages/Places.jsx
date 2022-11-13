@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
+import Categories from "../components/placesComponents/Categories";
 
 const images = [
   "images/card-5.svg",
@@ -22,11 +23,14 @@ const images = [
 
 function Places() {
   return (
-    <div className="mx-20 my-14">
-      <div className="grid grid-cols-4 gap-6">
-        {images.map((image) => {
-          return <Card img={image} />;
-        })}
+    <div>
+      <Categories />
+      <div className="mx-20 my-14">
+        <div className="grid grid-cols-4 gap-6">
+          {images.map((image) => {
+            return <Card img={image} />;
+          })}
+        </div>
       </div>
     </div>
   );
