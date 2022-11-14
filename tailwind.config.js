@@ -21,6 +21,9 @@ module.exports = {
 
         xsx: { max: "480px" },
       },
+      fontSize: {
+        "6xl": "3.5rem",
+      },
       zIndex: {
         1000: 1000,
       },

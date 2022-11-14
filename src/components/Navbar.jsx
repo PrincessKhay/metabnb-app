@@ -51,7 +51,7 @@ export default function Navbar() {
                 onClick={() => {
                   navigate(item.href);
                 }}
-                className="font-medium text-base text-tinytext hover:text-gray-900"
+                className="font-normal text-base text-tinytext hover:text-gray-900"
               >
                 {item.name}
               </a>
@@ -82,6 +82,14 @@ export default function Navbar() {
                   />
                 </a>
               </div>
+              <div className="py-6">
+                <button
+                  onClick={() => setShowModal(true)}
+                  className="mdx:w-2/5 mdx:text-center -mx-3 bg-primary px-4 py-2.5 font-normal text-white block rounded-lg text-base leading-6"
+                >
+                  Connect wallet
+                </button>
+              </div>
               <div className="flex">
                 <button
                   type="button"
@@ -105,14 +113,6 @@ export default function Navbar() {
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
-                  <button
-                    onClick={() => setShowModal(true)}
-                    className="mdx:w-2/5 mdx:text-center -mx-3 bg-primary px-4 py-2.5 font-normal text-white block rounded-lg text-base leading-6"
-                  >
-                    Connect wallet
-                  </button>
                 </div>
               </div>
             </div>

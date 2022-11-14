@@ -8,14 +8,14 @@ function Hero() {
         className="mdx:w-full md:w-7/12 w-2/5 flex-col space-y-8 md:mt-7"
       >
         <div className="mdx:w-11/12 mdx:m-auto">
-          <h1 className="xsx:text-4xl text-6xl leading-tight tracking-tight font-medium text-center md:text-left">
+          <h1 className="xsx:text-4xl text-5xl leading-tight tracking-tight font-normal text-center md:text-left">
             Rent a <span className="span">Place</span> away from{" "}
             <span className="span">Home</span> in the{" "}
             <span className="span">Metaverse</span>
           </h1>
         </div>
         <div className="mdx:w-4/5 mdx:mx-auto">
-          <p className="xsx:w-full w-11/12 text-base md:text-xl leading-8 font-normal break-words text-center md:text-left">
+          <p className="xsx:w-full w-11/12 text-base md:text-lg leading-8 font-normal break-words text-center md:text-left">
             we provide you access to luxury and affordable houses in the
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone

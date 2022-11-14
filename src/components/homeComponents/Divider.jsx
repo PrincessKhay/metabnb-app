@@ -12,7 +12,7 @@ function Divider() {
         </div>
         <div className="md:w-52 mdx:w-24 flex items-center space-x-2">
           <img src="images/white-metamask.svg" alt="" className="w-7" />
-          <p className="text-token xsx:text-base text-xl tracking-wider">
+          <p className="text-token xsx:text-base text-xl font-extralight tracking-wider">
             METAMASK
           </p>
         </div>
