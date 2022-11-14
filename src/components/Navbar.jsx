@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div className="px-6 mx-12 pt-12 lg:px-8">
-      <div className="fixed">
+      <div className="">
         <nav
           className="flex h-9 items-center justify-between"
           aria-label="Global"
@@ -55,7 +55,7 @@ export default function Navbar() {
           <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
             <a
               href="/"
-              className="inline-block bg-primary rounded-lg px-6 py-2.5 text-sm font-normal leading-6 text-white"
+              className="inline-block bg-primary rounded-lg px-6 py-2.5 text-sm font-normal leading-6 text-white hover:scale-75 transition ease-in"
             >
               Connect wallet
             </a>

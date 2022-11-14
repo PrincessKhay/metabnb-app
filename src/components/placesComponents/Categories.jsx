@@ -13,7 +13,7 @@ function Categories() {
         <li>Off-grid</li>
         <li>Farm</li>
       </ul>
-      <div className="flex relative">
+      <div className="flex relative space-x-6 items-center">
         <button className=" inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">
           Location
         </button>
@@ -23,7 +23,7 @@ function Categories() {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          className="w-5 h-5"
+          className="w-5 h-5 absolute top-0 right-0"
         >
           <path
             stroke-linecap="round"

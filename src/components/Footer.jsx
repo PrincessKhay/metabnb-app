@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
         <div className="">
-          <p className="">2022 Metabnb</p>
+          <p className="">&copy; 2022 Metabnb</p>
         </div>
       </div>
     </div>
