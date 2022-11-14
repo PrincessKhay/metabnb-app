@@ -21,6 +21,9 @@ module.exports = {
 
         xsx: { max: "480px" },
       },
+      zIndex: {
+        1000: 1000,
+      },
       colors: {
         primary: "#a02279",
         bordercolor: "#a3a3a3",

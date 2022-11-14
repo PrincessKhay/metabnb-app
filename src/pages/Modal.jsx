@@ -1,4 +1,5 @@
 import React from "react";
+// import ReactDom from "react-dom";
 
 function Modal({ visible, onClose }) {
   const handleOnClose = (e) => {
@@ -11,9 +12,9 @@ function Modal({ visible, onClose }) {
     <div
       id="main_box"
       onClick={handleOnClose}
-      className="fixed inset-0 bg-black bg-opacity-20 flex justify-center items-center"
+      className="fixed inset-0 bg-black bg-opacity-20 flex justify-center items-center z-1000"
     >
-      <div className="bg-white p-2 rounded">
+      <div className="fixed z-1000 bg-white p-2 rounded">
         <div>
           <span>Connect Wallet</span>
           <svg
@@ -75,6 +76,7 @@ function Modal({ visible, onClose }) {
         </div>
       </div>
     </div>
+    // document.getElementById("portal")
   );
 }
 
