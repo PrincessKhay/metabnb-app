@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div>
+    <div className="xsx:w-72 my-0 mx-auto">
       <div className="p-3.5 bg-collection_bg border border-solid border-collection rounded-2xl">
         <div className="mb-4 relative">
           <img src={props.img} alt="" />
