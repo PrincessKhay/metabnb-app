@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
+import Modal from "../pages/Modal";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -12,6 +13,10 @@ const navigation = [
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOnClose = () => setShowModal(false);
 
   let navigate = useNavigate();
 
@@ -55,6 +60,7 @@ export default function Navbar() {
           <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
             <a
               href="/"
+              onClick={() => setShowModal(true)}
               className="inline-block bg-primary rounded-lg px-6 py-2.5 text-sm font-normal leading-6 text-white hover:scale-75 transition ease-in"
             >
               Connect wallet
@@ -114,6 +120,8 @@ export default function Navbar() {
           </Dialog.Panel>
         </Dialog>
       </div>
+
+      <Modal onClose={handleOnClose} visible={showModal} />
     </div>
   );
 }
