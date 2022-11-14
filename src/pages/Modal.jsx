@@ -1,10 +1,18 @@
 import React from "react";
 
 function Modal({ visible, onClose }) {
+  const handleOnClose = (e) => {
+    if (e.target.id === "main_box") onClose();
+  };
+
   if (!visible) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-20 flex justify-center items-center">
+    <div
+      id="main_box"
+      onClick={handleOnClose}
+      className="fixed inset-0 bg-black bg-opacity-20 flex justify-center items-center"
+    >
       <div className="bg-white p-2 rounded">
         <div>
           <span>Connect Wallet</span>
@@ -14,7 +22,7 @@ function Modal({ visible, onClose }) {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-4 h-4"
+            className="w-4 h-4 cursor-pointer"
             onClick={onClose}
           >
             <path
@@ -36,7 +44,7 @@ function Modal({ visible, onClose }) {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-4 h-4"
+              className="w-4 h-4 cursor-pointer"
             >
               <path
                 stroke-linecap="round"
@@ -55,7 +63,7 @@ function Modal({ visible, onClose }) {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-4 h-4"
+              className="w-4 h-4 cursor-pointer"
             >
               <path
                 stroke-linecap="round"

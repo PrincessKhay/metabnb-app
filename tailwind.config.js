@@ -19,7 +19,7 @@ module.exports = {
         smx: { max: "639px" },
         // => @media (max-width: 639px) { ... }
 
-        xsx: { max: "425px" },
+        xsx: { max: "480px" },
       },
       colors: {
         primary: "#a02279",

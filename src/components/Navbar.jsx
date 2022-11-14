@@ -21,7 +21,7 @@ export default function Navbar() {
   let navigate = useNavigate();
 
   return (
-    <div className="px-6 mx-12 pt-12 lg:px-8">
+    <div className="xsx:m-9 xsx:p-0 px-6 mx-12 pt-12 lg:px-8">
       <div className="">
         <nav
           className="flex h-9 items-center justify-between"
@@ -58,13 +58,12 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-            <a
-              href="/"
+            <button
               onClick={() => setShowModal(true)}
-              className="inline-block bg-primary rounded-lg px-6 py-2.5 text-sm font-normal leading-6 text-white hover:scale-75 transition ease-in"
+              className="inline-block bg-primary rounded-lg px-6 py-2.5 text-sm font-normal leading-6 text-white hover:transition duration-700 ease-in-out"
             >
               Connect wallet
-            </a>
+            </button>
           </div>
         </nav>
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -108,12 +107,12 @@ export default function Navbar() {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
-                    href="/"
-                    className="-mx-3 bg-primary px-4 py-2.5 font-normal text-white block rounded-lg text-base leading-6"
+                  <button
+                    onClick={() => setShowModal(true)}
+                    className="mdx:w-2/5 mdx:text-center -mx-3 bg-primary px-4 py-2.5 font-normal text-white block rounded-lg text-base leading-6"
                   >
                     Connect wallet
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
