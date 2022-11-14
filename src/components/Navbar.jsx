@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div className="px-6 mx-12 pt-12 lg:px-8">
-      <div className="">
+      <div className="fixed">
         <nav
           className="flex h-9 items-center justify-between"
           aria-label="Global"
