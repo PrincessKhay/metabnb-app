@@ -15,3 +15,11 @@ body {
 .small_text {
   @apply text-xs text-tinytext;
 }
+
+.footer_text {
+  @apply text-xl font-bold;
+}
+
+.footer_link {
+  @apply text-sm font-normal;
+}
