@@ -35,7 +35,7 @@ function Hero() {
         </div>
       </div>
       <div id="pictures_div" className="mt-12 md:mt-4 md:w-4/12">
-        <img src="images/4-images.svg" alt="" />
+        <img src="images/4-images.png" alt="nft-images" />
       </div>
     </div>
   );
