@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactDom from "react-dom";
 
 function Modal({ visible, onClose }) {
   const handleOnClose = (e) => {
@@ -14,16 +13,16 @@ function Modal({ visible, onClose }) {
       onClick={handleOnClose}
       className="fixed inset-0 bg-black bg-opacity-20 flex justify-center items-center z-1000"
     >
-      <div className="fixed z-1000 bg-white p-2 rounded">
-        <div>
-          <span>Connect Wallet</span>
+      <div className="fixed z-1000 w-96 bg-white rounded-xl">
+        <div className="flex justify-between m-6">
+          <span className="font-bold text-xl">Connect Wallet</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-4 h-4 cursor-pointer"
+            className="w-6 h-6 cursor-pointer fill-current text-black"
             onClick={onClose}
           >
             <path
@@ -33,12 +32,18 @@ function Modal({ visible, onClose }) {
             />
           </svg>
         </div>
+        <hr className="text-gray-100" />
 
-        <div>
-          <p>Choose your preferred wallet:</p>
-          <a href="/">
-            <img src="images/metamask.svg" alt="" />
-            <span>Metamask</span>
+        <div className="m-6">
+          <p className="text-sm">Choose your preferred wallet:</p>
+          <a
+            href="/"
+            className="w-full p-2 mt-3 border border-gray-300 rounded-xl flex justify-between items-center hover:bg-gray-50"
+          >
+            <div className="space-x-3 flex items-center">
+              <img src="images/metamask.svg" alt="" />
+              <span className="text-lg font-semibold">Metamask</span>
+            </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -55,9 +60,14 @@ function Modal({ visible, onClose }) {
             </svg>
           </a>
 
-          <a href="/">
-            <img src="images/wallet.svg" alt="" />
-            <span>Metamask</span>
+          <a
+            href="/"
+            className="w-full p-2 mt-3 border border-gray-300 rounded-xl flex justify-between items-center hover:bg-gray-50"
+          >
+            <div className="space-x-3 flex items-center">
+              <img src="images/wallet.svg" alt="" />
+              <span className="text-lg font-semibold">WalletConnect</span>
+            </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -76,7 +86,6 @@ function Modal({ visible, onClose }) {
         </div>
       </div>
     </div>
-    // document.getElementById("portal")
   );
 }
 
