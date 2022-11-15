@@ -17,7 +17,7 @@ function Moreinfo() {
         </button>
       </div>
       <div className="w-5/12 smx:w-full">
-        <img src="images/3-images.png" alt="nft-images" />
+        <img src="images/3-images.svg" alt="nft-images" />
       </div>
     </div>
   );

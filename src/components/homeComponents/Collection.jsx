@@ -3,14 +3,14 @@ import React from "react";
 import Card from "../Card";
 
 const images = [
-  "images/card-1.png",
-  "images/card-2.png",
-  "images/card-3.png",
-  "images/card-4.png",
-  "images/card-5.png",
-  "images/card-6.png",
-  "images/card-7.png",
-  "images/card-8.png",
+  "images/card-1.svg",
+  "images/card-2.svg",
+  "images/card-3.svg",
+  "images/card-4.svg",
+  "images/card-5.svg",
+  "images/card-6.svg",
+  "images/card-7.svg",
+  "images/card-8.svg",
 ];
 
 function Collection() {
