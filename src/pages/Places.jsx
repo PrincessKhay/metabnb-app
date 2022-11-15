@@ -3,22 +3,22 @@ import Card from "../components/Card";
 import Categories from "../components/placesComponents/Categories";
 
 const images = [
-  "images/card-5.svg",
-  "images/card-6.svg",
-  "images/card-7.svg",
-  "images/card-8.svg",
-  "images/card-1.svg",
-  "images/card-2.svg",
-  "images/card-3.svg",
-  "images/card-4.svg",
-  "images/card-9.svg",
-  "images/card-10.svg",
-  "images/card-11.svg",
-  "images/card-12.svg",
-  "images/card-13.svg",
-  "images/card-14.svg",
-  "images/card-15.svg",
-  "images/card-16.svg",
+  "images/card-5.png",
+  "images/card-6.png",
+  "images/card-7.png",
+  "images/card-8.png",
+  "images/card-1.png",
+  "images/card-2.png",
+  "images/card-3.png",
+  "images/card-4.png",
+  "images/card-9.png",
+  "images/card-10.png",
+  "images/card-11.png",
+  "images/card-12.png",
+  "images/card-13.png",
+  "images/card-14.png",
+  "images/card-15.png",
+  "images/card-16.png",
 ];
 
 function Places() {
