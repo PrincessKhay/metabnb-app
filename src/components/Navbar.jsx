@@ -21,7 +21,8 @@ export default function Navbar() {
   let navigate = useNavigate();
 
   return (
-    <div className="xsx:m-9 xsx:p-0 px-6 mx-12 pt-12 lg:px-8">
+    <div className="xsx:m-9 xsx:p-0 px-6 mx-12 pt-12 lg:px-8 ">
+      {/* fixed top-0 z-50 w-full bg-white p-3 */}
       <div className="">
         <nav
           className="flex h-9 items-center justify-between"
@@ -30,6 +31,7 @@ export default function Navbar() {
           <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
+              {/* md:w-[180px] lg:w-[200px] */}
               <img className="h-8" src="images/logo-1.svg" alt="brand" />
             </a>
           </div>
