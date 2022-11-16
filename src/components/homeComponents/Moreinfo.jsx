@@ -2,8 +2,8 @@ import React from "react";
 
 function Moreinfo() {
   return (
-    <div className="bg-primary px-20 pt-28 pb-20 flex smx:flex-col smx:items-center xsx:px-8 xsx:pt-14  justify-between">
-      <div className="space-y-12 w-2/6 mt-10 smx:w-full smx:m-0 xsx:flex xsx:flex-col">
+    <div className="bg-primary pl-20 pt-28 pb-20 grid grid-cols-2 llgx:grid-cols-1 smx:flex smx:flex-col smx:px-14 smx:items-center xsx:px-8 xsx:pt-14  justify-between">
+      <div className="space-y-12 pr-52 mt-10 smx:p-0 smx:w-full smx:m-0 xsx:flex xsx:flex-col">
         <h1 className="text-4xl font-bold text-white smx:text-left">
           Metabnb NFTs
         </h1>
@@ -16,7 +16,7 @@ function Moreinfo() {
           Learn more
         </button>
       </div>
-      <div className="w-5/12 smx:w-full smx:mt-10 smx:mb-4 xsx:mx-auto">
+      <div className="w-8/12 pl-10 smx:pl-0 smx:w-full smx:mt-10 smx:mb-4 xsx:mx-auto">
         <img src="images/3-images.svg" alt="nft-images" />
       </div>
       <div className="sm:hidden">
