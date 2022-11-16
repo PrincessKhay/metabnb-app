@@ -13,7 +13,7 @@ function Modal({ visible, onClose }) {
       onClick={handleOnClose}
       className="fixed inset-0 bg-black bg-opacity-20 flex justify-center items-center z-1000"
     >
-      <div className="fixed z-1000 w-96 bg-white rounded-xl">
+      <div className="fixed z-1000 w-96 xxsx:w-80 bg-white rounded-xl">
         <div className="flex justify-between m-6">
           <span className="font-bold text-xl">Connect Wallet</span>
           <svg
