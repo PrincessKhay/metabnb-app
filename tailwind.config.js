@@ -10,7 +10,13 @@ module.exports = {
         xlx: { max: "1279px" },
         // => @media (max-width: 1279px) { ... }
 
+        xxl: { max: "1110px" },
+        // => @media (max-width: 1279px) { ... }
+
         lgx: { max: "1023px" },
+        // => @media (max-width: 1023px) { ... }
+
+        llgx: { max: "900px" },
         // => @media (max-width: 1023px) { ... }
 
         mdx: { max: "767px" },
@@ -20,6 +26,8 @@ module.exports = {
         // => @media (max-width: 639px) { ... }
 
         xsx: { max: "480px" },
+
+        xxsx: { max: "445px" },
       },
       fontSize: {
         "6xl": "3.5rem",

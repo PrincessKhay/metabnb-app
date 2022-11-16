@@ -15,7 +15,7 @@ const images = [
 
 function Collection() {
   return (
-    <div className="xsx:mx-14 mx-20 my-14">
+    <div className="smx:mx-auto mx-20 my-14">
       <h1 className=" text-4xl font-bold text-center">
         Inspiration for your next adventure
       </h1>
